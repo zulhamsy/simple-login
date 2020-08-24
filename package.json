@@ -1,0 +1,35 @@
+{
+  "name": "simple-login",
+  "version": "1.0.0",
+  "description": "Just to test webpack and babel",
+  "main": "src/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --output-public-path=/build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulhamsy/simple-login.git"
+  },
+  "author": "Zulham Syafrawi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zulhamsy/simple-login/issues"
+  },
+  "homepage": "https://github.com/zulhamsy/simple-login#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
