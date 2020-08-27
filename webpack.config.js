@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
     entry: {
         app: ['babel-polyfill'
-            , './src/js/app.js']
+            , './src/js/app.js'
+            , './src/js/home.js']
     },
     output: {
         path: path.resolve(__dirname, 'build'),
