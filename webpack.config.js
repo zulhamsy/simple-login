@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        vendor: ['babel-polyfill', './src/js/vendor/easyHttp.js', './src/js/app.js'],
-        home: './src/js/home.js'
+        home: ['babel-polyfill', './src/js/home.js'],
+        login: ['babel-polyfill', './src/js/login.js']
     },
     output: {
         path: path.resolve(__dirname, 'build'),
