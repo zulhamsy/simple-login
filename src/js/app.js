@@ -25,7 +25,9 @@ const UI = (function () {
 export const App = (function () {
     return {
         init,
-        login
+        login,
+        register,
+        checkUser
     }
 
     function init() {
@@ -50,5 +52,13 @@ export const App = (function () {
         if (loginData.length == 1) {
             _redirect(data.pass == loginData[0].password, 'home.html');
         }
+    }
+
+    function register(data) {
+        console.log(data);
+    }
+
+    function checkUser(username) {
+        console.log(username);
     }
 })();

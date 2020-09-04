@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
     entry: {
         home: ['babel-polyfill', './src/js/home.js'],
-        login: ['babel-polyfill', './src/js/login.js']
+        login: ['babel-polyfill', './src/js/login.js'],
+        register: ['babel-polyfill', './src/js/register.js']
     },
     output: {
         path: path.resolve(__dirname, 'build'),
